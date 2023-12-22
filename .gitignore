@@ -1,4 +1,42 @@
-# Project exclude paths
-/.gradle/
-/build/
-/build/classes/java/main/
+## Project exclude paths
+#/.gradle/
+#/build/
+#/build/classes/java/main/
+
+# IntelliJ IDEA
+.idea/
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Gradle
+.gradle/
+build/
+
+# Logs
+*.log
+
+# Temporary files
+build/
+out/
+
+# IDE-specific files
+*.iml
+*.ipr
+*.iws
+
+# Compiled class files
+*.class
+
+# Package files
+*.jar
+*.war
+*.ear
+
+# Local configuration file (e.g., gradle.properties)
+gradle.properties
+
+# Dependency directories
+.idea-libraries/
